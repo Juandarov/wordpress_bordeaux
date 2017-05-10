@@ -2,16 +2,29 @@
 <div class="mh-wrapper clearfix">
     <div id="main-content" class="mh-loop mh-content" role="main">
         <article class="principal">
-            <img id="principimage" src="http://lorempixel.com/632/300/sports" alt="image principal">
+            <?php
+                $args = array('category_name' => 'principal');
+                $posts = get_posts($args);
+
+                foreach ($posts as $post) {
+                    setup_postdata($post);
+                    get_template_part('content', 'page');
+                }
+            ?>
         </article>
 
         <h2>Actualités</h2>
 
-                <div id="main-content" class="mh-content" role="main" itemprop="mainContentOfPage"><?php
-                while (have_posts()) : the_post();
-                mh_before_page_content();
-                get_template_part('content', 'page');
-                endwhile; ?>
+                <div id="main-content" class="mh-content" role="main" itemprop="mainContentOfPage">
+                    <?php
+                        $args = array('category_name' => 'Actualités');
+                        $posts = get_posts($args);
+
+                        foreach ($posts as $post) {
+                            setup_postdata($post);
+                            get_template_part('content', 'page');
+                        }
+                    ?>
                 </div>
     </div>
 
