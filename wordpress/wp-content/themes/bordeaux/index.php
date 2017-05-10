@@ -11,7 +11,6 @@
                 while (have_posts()) : the_post();
                 mh_before_page_content();
                 get_template_part('content', 'page');
-                comments_template();
                 endwhile; ?>
                 </div>
     </div>
