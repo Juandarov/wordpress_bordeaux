@@ -1,0 +1,120 @@
+/*
+ Theme Name:   bordeaux
+ Theme URI: https://www.mhthemes.com/themes/mh/magazine-lite/
+ Description:
+ Author:
+ Author URI:
+ Template:     mh-magazine-lite
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:
+ Text Domain:  mh-magazine-lite
+*/
+
+/*NAVBAR*/
+
+.mh-header-title{
+    font-family: STIX;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: unset;
+    color: #D82145;
+}
+
+.mh-navigation{
+    display: flex;
+    justify-content: center;
+}
+
+/*PRINCIPALIMAGE */
+h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#principimage {
+    margin: 1em 0;
+}
+
+form.search-form:nth-child(2) > label:nth-child(1) > input:nth-child(2) {
+    margin-top: 3em;
+    width: 100%;
+}
+
+/*MAIN*/
+
+
+#principimage {
+    width: 100%;
+}
+
+.mh-loop {
+    border-right: solid 2px rgb(212, 212, 212);
+    padding-right: 1.5em;
+    width: 72%;
+
+}
+
+section {
+    display: flex;
+}
+
+div.mh-content:nth-child(3) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.miniposts {
+    width: 32%;
+}
+
+h3.entry-title {
+    font-family: STIX;
+    font-size: 20px;
+}
+
+.mh-header-text, .submenu,  .mh-site-logo{
+   display: flex;
+   justify-content: space-around;
+}
+
+.aheader {
+
+   display: flex;
+
+   flex-direction: column;
+
+}
+
+.submenu {
+
+   font-size: 10px;
+
+}
+
+.submenu a {
+
+   color:red;
+
+}
+
+.aheader {
+
+   padding: 0 2em;
+
+}
+
+a{
+
+   color: rgb(117, 114, 117);
+
+}
+
+/*SIDEBAR*/
+
+.mh-sidebar {
+    width: 22%;
+    float: right;
+}

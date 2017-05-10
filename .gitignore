@@ -1,0 +1,5 @@
+# Keep these files out of the repo
+wordpress/wp-content/upgrade
+wordpress/sitemap.*
+wordpress/wp-config.php
+*.sql
