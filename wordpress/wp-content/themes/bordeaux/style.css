@@ -13,7 +13,6 @@
 */
 
 /*NAVBAR*/
-
 .mh-header-title{
     font-family: STIX;
     text-transform: uppercase;
@@ -25,7 +24,13 @@
 .mh-navigation{
     display: flex;
     justify-content: center;
+    border-bottom: none;
+    background-color: #6C6866;
+    box-shadow: 0px 0px 4px 0px;
 }
+
+
+
 
 /*PRINCIPALIMAGE */
 h2 {
@@ -42,9 +47,10 @@ form.search-form:nth-child(2) > label:nth-child(1) > input:nth-child(2) {
     width: 100%;
 }
 
+
+
+
 /*MAIN*/
-
-
 #principimage {
     width: 100%;
 }
@@ -68,6 +74,11 @@ div.mh-content:nth-child(3) {
 
 .miniposts {
     width: 32%;
+}
+
+#page-129, img.alignnone {
+    width: 95%;
+    margin: auto;
 }
 
 h3.entry-title {
